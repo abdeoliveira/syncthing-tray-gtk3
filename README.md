@@ -7,7 +7,7 @@ sudo apt install ruby
 
 sudo gem install gtk3 net-ping net-http
 
-# Run
+# Usage
 ruby syncthing-tray-gtk3.rb
 
 or
