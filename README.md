@@ -16,7 +16,7 @@ sudo gem install gtk3 net-ping net-http
 
 # Configuration
 
-You must edit the indicated first lines with you API key, remote device ID, and local synced folders ID.
+You must edit the indicated first lines (check the api_call function) with you API key, remote device ID, and local synced folders ID.
 
 # Usage
 ruby syncthing-tray-gtk3.rb
