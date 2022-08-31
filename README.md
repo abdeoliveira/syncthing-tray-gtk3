@@ -1,5 +1,5 @@
 # syncthing-tray-gtk3
-Yet another Syncthing tray icon indicator
+Yet another Syncthing tray icon indicator.
 
 It is pretty simple. This code intends to monitor the state of synced local folders and if *one* remote device is connected. There are 4 Syncthing states, each one corresponding to a specific tray icon:
 
