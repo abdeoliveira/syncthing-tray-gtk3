@@ -15,9 +15,9 @@ def ping_api(host)
 end
 
 def api_call(server,endpoint)
-      apikey = 'FrdhNRnp5uDq7MuxZy7regaDoDTPhS9c'
-      device = '6WJTNCW-3TKSZ56-YL76XCF-3LTFNHH-LNBUXCC-XCPMS22-GXBYQ4A-TXAXGAP'
-      folders = ['fdg7t-qfmup','wfnpu-wksyg']
+      apikey = 'PUT-YOUR-API-KEY-HER'
+      device = 'PUT-YOUR-DEVICE-ID-HERE'
+      folders = ['FOLDER-1-ID','FOLDER-2-ID','FOLDER-N-ID']
       url = URI(server + '/rest/' + endpoint)
       http = Net::HTTP.new(url.host, url.port)
       request = Net::HTTP::Get.new(url)
