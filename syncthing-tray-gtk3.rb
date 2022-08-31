@@ -15,7 +15,7 @@ def ping_api(host)
 end
 
 def api_call(server,endpoint)
-      apikey = 'PUT-YOUR-API-KEY-HER'
+      apikey = 'PUT-YOUR-API-KEY-HERE'
       device = 'PUT-YOUR-DEVICE-ID-HERE'
       folders = ['FOLDER-1-ID','FOLDER-2-ID','FOLDER-N-ID']
       url = URI(server + '/rest/' + endpoint)
