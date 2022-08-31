@@ -4,6 +4,7 @@ Yet another Syncthing tray icon indicator
 # Dependencies
 
 sudo apt install ruby
+
 sudo gem install gtk3 net-ping net-http
 
 # Run
