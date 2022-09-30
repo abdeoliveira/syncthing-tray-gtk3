@@ -11,8 +11,8 @@ It is pretty simple. This code intends to monitor the state of synced local fold
 # Dependencies
 
 `sudo apt install ruby`
-`
-`gem install gtk3 net-ping net-http
+
+`gem install gtk3 net-ping net-http`
 
 # Configuration
 
