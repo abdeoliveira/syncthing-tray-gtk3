@@ -10,9 +10,9 @@ It is pretty simple. This code intends to monitor the state of synced local fold
 
 # Dependencies
 
-sudo apt install ruby
-
-sudo gem install gtk3 net-ping net-http
+`sudo apt install ruby`
+`
+`gem install gtk3 net-ping net-http
 
 # Configuration
 
@@ -20,18 +20,10 @@ You must edit the indicated first lines (check the api_call function) with you A
 
 Also, you may need to edit the server address and refresh rate monitoring (in seconds). The lines are:
 
-refresh_rate = 10 #seconds
+`refresh_rate = 10 #seconds`
 
-server_address = 'http://localhost:8384' 
+`server_address = 'http://localhost:8384'`
 
 # Usage
-ruby syncthing-tray-gtk3.rb
 
-or
- make it executable firsrt: 
- 
- chmod +x syncthing-tray-gtk3.rb
- 
- and then execute it as
- 
- ./syncthing-tray-gtk3.rb
+Run the script with `ruby syncthing-tray-gtk3.rb`.Alternatively, you can make it executable firsrt with `chmod +x syncthing-tray-gtk3.rb`. Then execute it as `./syncthing-tray-gtk3.rb`.
