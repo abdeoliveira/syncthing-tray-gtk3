@@ -26,4 +26,4 @@ Also, you may need to edit the server address and refresh rate monitoring (in se
 
 # Usage
 
-Run the script with `ruby syncthing-tray-gtk3.rb`.Alternatively, you can make it executable firsrt with `chmod +x syncthing-tray-gtk3.rb`. Then execute it as `./syncthing-tray-gtk3.rb`.
+Run the script with `ruby syncthing-tray-gtk3.rb`. Alternatively, you can make it executable firsrt with `chmod +x syncthing-tray-gtk3.rb`. Then execute it as `./syncthing-tray-gtk3.rb`.
