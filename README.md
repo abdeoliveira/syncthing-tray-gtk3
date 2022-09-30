@@ -16,7 +16,7 @@ It is pretty simple. This code intends to monitor the state of synced local fold
 
 # Configuration
 
-You must edit the indicated first lines (check the api_call function) with your `API key`, `remote device ID`, and `local synced folders ID`. Also, you may need to edit the server address and refresh rate monitoring (in seconds). The corresponding lines are:
+You must edit the indicated first lines of the `api_call` function with your `API key`, `remote device ID`, and `local synced folders ID`. Also, you may need to edit the server address and refresh rate monitoring (in seconds). The corresponding lines are:
 
 `refresh_rate = 10 #seconds`
 
