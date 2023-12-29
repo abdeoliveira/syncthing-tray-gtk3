@@ -1,5 +1,5 @@
 # Unmaintained
-This project is no longer active. If you want to use it please consider forking it and maintain yourself.
+This project is no longer active. If you want to use it please consider fork and maintain yourself.
 
 # syncthing-tray-gtk3
 Yet another Syncthing tray icon indicator.
